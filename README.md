@@ -24,7 +24,7 @@ El archivo llamado Trabajo_Final.ipynb contiene el desarrollo del **Trabajo Fina
 - `TrabajoFinal_GeneracionDatosSinteticos.ipynb`  
   - Código completo de generación, evaluación y comparación de datos sintéticos con KDE y GMM.
 
-- `Data.csv`  
+- `Data.xlsx`  
   - Dataset original con variables clínicas de pacientes (creatinina, eGFR, BMI, presión arterial, entre otras).
 
 ## 🛠️ Librerías utilizadas
