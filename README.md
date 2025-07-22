@@ -1,6 +1,7 @@
 # Caracterización Estadística de Pacientes con Daño Renal
 
-Este notebook contiene el análisis exploratorio y comparativo de un dataset de pacientes con y sin daño renal, cumpliendo los requisitos de la Tarea 2 de Caracterización Estadística.
+Este notebook Tarea-2_Caracterizacion_estadística.ipynb contiene el análisis exploratorio y comparativo de un dataset de pacientes con y sin daño renal, cumpliendo los requisitos de la Tarea 2.
+El archivo llamado Trabajo_Final.ipynb contiene el desarrollo del **Trabajo Final** de la asignatura de Estadística Avanzada, enfocado en la generación de datos sintéticos usando **Kernel Density Estimation (KDE)** y **Gaussian Mixture Models (GMM)** para variables clínicas de pacientes.
 
 ## 📂 Contenido
 
@@ -19,6 +20,12 @@ Este notebook contiene el análisis exploratorio y comparativo de un dataset de 
 
 - **Gráficos**
   - Boxplots y gráficos de barras para asociaciones significativas.
+    
+- `TrabajoFinal_GeneracionDatosSinteticos.ipynb`  
+  - Código completo de generación, evaluación y comparación de datos sintéticos con KDE y GMM.
+
+- `Data.csv`  
+  - Dataset original con variables clínicas de pacientes (creatinina, eGFR, BMI, presión arterial, entre otras).
 
 ## 🛠️ Librerías utilizadas
 
@@ -27,6 +34,7 @@ Este notebook contiene el análisis exploratorio y comparativo de un dataset de 
 - matplotlib
 - seaborn
 - scipy
+- scikit-learn
 
 ## 📊 Dataset
 
@@ -37,4 +45,4 @@ El dataset fue proporcionado por el profesor en clase, e incluye variables clín
 1. Clona este repositorio.
 2. Instala las dependencias:
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy
+   pip install pandas numpy matplotlib seaborn scikit-learn scipy
